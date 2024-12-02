@@ -227,6 +227,9 @@ persistence:
   # existingClaim:
   ## Annotations to add to the Persistent Volume Claim
   annotations: {}
+  ## Labels to add to the Persitent Volume Claim
+  labels: {}
+
 
 # Use custom volume definition. Cannot be used with persistence.
 customVolume: {}
